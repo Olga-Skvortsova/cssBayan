@@ -59,25 +59,16 @@ summary::after {
     margin-left: 83%;
 }
 .title2::after {
-    margin-left: 91.5%;
+    margin-left: 80.4%;
 }
 .title3::after {
-    margin-left: 51.3%;
+    margin-left: 83.5%;
 }
 .title4::after {
-    margin-left: 78.8%;
+    margin-left: 85%;
 }
 .title5::after {
-    margin-left: 56.8%;
-}
-.title6::after {
-    margin-left: 84%;
-}
-.title7::after {
-    margin-left: 65.3%;
-}
-.title8::after {
-    margin-left: 73.7%;
+    margin-left: 81.5%;
 }
 details[open] summary::after {
     content: "×";
@@ -94,5 +85,6 @@ summary:hover {
     color: black;
 }
 .image {
-    width: 100%;
+    width: 70%;
+    margin: 0 15% 0 15%;
 }
