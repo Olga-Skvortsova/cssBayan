@@ -90,7 +90,7 @@ details[open] {
     100%  { opacity: 1; transform:  translate(0, 0); }
 }
 summary:hover {
-    background-color: rgba(240, 248, 255, 0.503);
+    background-color: rgba(240, 248, 255, 0.504);
     color: black;
 }
 .image {
