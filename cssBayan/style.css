@@ -18,7 +18,7 @@ html {
     background-color: rgb(54, 54, 54);
 }
 .container {
-    max-width: 1500px;
+    max-width: 80%;
 }
 h1 {
     font-family: "Open Sans";
@@ -87,4 +87,56 @@ summary:hover {
 .image {
     width: 70%;
     margin: 0 15% 0 15%;
+}
+@media (max-width: 820px) {
+    .container {
+      max-width: 80%;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    summary {
+        font-size: 1.5em;
+    }
+    .title1::after {
+        margin-left: 70%;
+    }
+    .title2::after {
+        margin-left: 65.3%;
+    }
+    .title3::after {
+        margin-left: 70.7%;
+    }
+    .title4::after {
+        margin-left: 73.1%;
+    }
+    .title5::after {
+        margin-left: 66.9%;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+      max-width: 90%;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    summary {
+        font-size: 0.8em;
+    }
+    .title1::after {
+        margin-left: 64%;
+    }
+    .title2::after {
+        margin-left: 58.5%;
+    }
+    .title3::after {
+        margin-left: 64.9%;
+    }
+    .title4::after {
+        margin-left: 67.9%;
+    }
+    .title5::after {
+        margin-left: 60.6%;ч
+    }
 }
